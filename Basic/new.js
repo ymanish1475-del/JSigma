@@ -12,3 +12,10 @@ console.log(name[name.length-1])
 n="apna collage";
 m=2627;
 console.log(n+m);
+
+let penPrice=78;
+let pencilPrice=65;
+// let output= "The toal proce is: " + (penPrice+pencilPrice)+" ruppee";
+
+let output=`the total price is ${pencilPrice} rupees `;  //litrals
+console.log(output);
