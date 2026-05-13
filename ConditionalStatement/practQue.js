@@ -51,19 +51,33 @@
 
 // qs5
 
+// let a=prompt("ENTER A :")
+// let b=prompt("ENTER B :")
+// let c=prompt("ENTER C :")
+
+// console.log("a=",a)
+// console.log("b=",b)
+// console.log("c=",c)
+
+// if(a>b&&a>c){
+//     console.log( a," is greater ")
+// }else if(b>a&&b>c){
+//     console.log( b," is greater ")
+    
+// }else{
+//     console.log( c," is greater ")
+// }
+
+// qs6
 let a=prompt("ENTER A :")
 let b=prompt("ENTER B :")
-let c=prompt("ENTER C :")
 
-console.log("a=",a)
-console.log("b=",b)
-console.log("c=",c)
+let m=a[(a.length)-1]
+let n=b[(b.length)-1]
 
-if(a>b&&a>c){
-    console.log( a," is greater ")
-}else if(b>a&&b>c){
-    console.log( b," is greater ")
-    
-}else{
-    console.log( c," is greater ")
+if(m=n){
+    console.log("bonus num")
 }
+
+console.log(m+"  ",n)
+
