@@ -15,5 +15,7 @@ f[8]="apes"
 console.log(f);
 
 
+// array method
+
 
 
