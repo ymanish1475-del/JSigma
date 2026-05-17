@@ -37,5 +37,10 @@ let car2=["tata","mahindra","suzuki","toyota","honda","hyundai"]
 
  let car = car1.concat(car2)
  console.log(car)
- console.log(car.reverse())
+//  console.log(car.reverse())
+ car.slice()                           //slice karta hea indexing ke hisab see
+ console.log(car.slice(4,6))       // yanha 4 and 5 bas print hoga 6 print nahi hoga
+console.log(car.slice(0,-3))  
+console.log(car.slice(4))    
+console.log(car.slice())
 
