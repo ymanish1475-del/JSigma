@@ -11,4 +11,4 @@ let profile={
 }
 
 console.log(profile)
-console.log(profile.hobby)
+console.log(profile.hobby.travelling)
