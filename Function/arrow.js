@@ -5,14 +5,23 @@ const sum=(a,b,c)=>{
 
 
 
-    sum(9,6,5);
+    // sum(9,6,5);
 
 const power=(a,n)=>{
-    for(let i=1;i<=n;i++){
-        b=b*a;
-    }
-    return b;
+    
+    return a**n;  //explicit return
+    // a**n
+
 }
-let b=1;
+
+const pow=(a,b)=>(a**b)  //implicit return
+
 
 power(2,2)
+
+// for this
+
+
+// function -> scope
+// arrow function --> lexcical scope 
+// means father ka scope
