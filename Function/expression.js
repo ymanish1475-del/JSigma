@@ -56,4 +56,33 @@ const calc={
     
 }
 
+const calculator={
+    add(a,b){
+        return a+b;
+    },
+    sub(a,b){
+        return a-b
+    },
+    div(g,h){
+        return g/h;
+    },
+    mul(h,s){
+        return h*s
+    }
+}
 
+const profile={
+    name:"manish",
+    age:19,
+    m:89,
+    p:45,
+    c:34,
+
+    getavg(){
+       let  avg=(this.m+this.p+this.c)/3
+        console.log(avg);
+    }
+
+}
+
+//this -> use for using the element inside of inner function of the outer function
