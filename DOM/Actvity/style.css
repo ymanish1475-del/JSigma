@@ -1,0 +1,26 @@
+div{
+    /* display: flex; */
+  justify-content: center;/* Centers elements horizontally*/
+  align-items: center;  
+   display: grid;
+  place-items: center;
+  background-color: aqua;
+}
+
+#box{
+    height: 100px;
+    width: 400px;
+    border: solid 2px black;
+    display: flex; 
+    background-color: aqua;
+}
+/* button{
+    margin-bottom: 1rem;
+} */
+
+
+#badabox{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
