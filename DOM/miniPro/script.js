@@ -1,20 +1,66 @@
 
 let inp=document.querySelector("input");
 let btn=document.querySelector("button");
-// let li=document.querySelector("li")
+
 let ol=document.querySelector("ol")
-let del=document.querySelector("#del");
+// let del=document.querySelector("#del");
 
 btn.addEventListener("click", function(){
-    let item=document.createElement("li")
-    item.innerText=inp.value;
-    ol.appendChild(item)
+    let item=document.createElement("li");
+    
+    if(inp.value!=""){
+        item.innerText=inp.value;
+    
+    
+
+    }
+    let deleteItem=document.createElement("button");
+    deleteItem.innerText="delete";
+    deleteItem.classList.add("del");
+    // let li=document.querySelectorAll("li")
+    item.appendChild(deleteItem);
+//     deleteItem.addEventListener("click",function(){
+//     item.innerText=null;
+//     item.value=null;
+// })
+ol.appendChild(item)
     inp.value=null;
+    
 })
-del.addEventListener("click",function(){
-    // this.value=null;
-    console.log(li.innerText)
+
+ol.addEventListener("click",function(e){
+    // console.log("button is clicked");
+    // console.dir(e.target.nodeName)
+
+    if(e.target.nodeName=="BUTTON"){
+        let itemList=e.target.parentElement;
+        itemList.remove();
+    }
+
 })
+// let delbtn=document.querySelectorAll(".del");
+// console.log(delbtn.innerText)
+
+
+
+// for( delbtn of delbtn){
+//     // console.log(i);
+
+//     delbtn.addEventListener("click",function(){
+//          let par= this.parentElement;
+        
+//         console.log(par);
+//          par.remove();
+//     })
+   
+// }
+
+
+
+// del.addEventListener("click",function(){
+//     // this.value=null;
+//     console.log(li.innerText)
+// })
 
 
 

@@ -1,0 +1,40 @@
+body{
+    /* display: flex; */
+    background-color: aqua;
+      display: grid;
+  place-items: center;
+  /* height: 100vh; */
+
+}
+
+.box{
+      margin: 10px;
+
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    /* background-color: aqua; */
+    /* display: flex; */
+
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+
+#badaBox{
+    /* padding: 20px; */
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  
+}
