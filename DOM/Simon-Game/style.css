@@ -17,18 +17,19 @@ body{
     /* display: flex; */
 
 }
-#red{
+.red{
     background-color: red;
 }
-#blue{
+.blue{
     background-color: blue;
 }
-#yellow{
+.yellow{
     background-color: yellow;
 }
-#green{
+.green{
     background-color: green;
 }
+
 
 #badaBox{
     /* padding: 20px; */
@@ -37,4 +38,10 @@ body{
     align-items: center;
     border-radius: 10px;
   
+}
+.white{
+    background-color: aliceblue;
+}
+.userColor{
+    background-color: black;
 }
